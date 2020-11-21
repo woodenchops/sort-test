@@ -23,3 +23,15 @@ const daysToLife = (array, positions) => {
     {from: 3, to: 2},
     {from: 3, to: 4}
    ])) // will take an item from its original index and shift it to a new position
+
+   /* OUTPUT:
+
+   [
+    { name: 'days' },
+    { name: 'weeks' },
+    { name: 'months' },
+    { name: 'years' },
+    { name: 'life' }
+  ]
+   
+   */ 
